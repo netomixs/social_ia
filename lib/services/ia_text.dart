@@ -9,9 +9,9 @@ class IAText {
   try{
     const String url =
         "https://api.stability.ai/v1/generation/stable-diffusion-v1-5/text-to-image";
- //Sin imagenes   const String token = "sk-ZfwPRmdF3GnlhudVijaF3LdYS332SNTUZjILkYGyesPwGn6a";
-       const String token = "sk-gf4LC0zdj3yVBT1XAyJvsZ2hYcQtZ2eRBsTmVT9volCZfLRX";
-//const String token="sdfsdfsdf";
+
+
+ const String token="sdfsdfsdf";
     Map<String, dynamic> requestBody = {
       "cfg_scale": 7,
       "clip_guidance_preset": "FAST_BLUE",
